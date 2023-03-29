@@ -1,0 +1,12 @@
+.CenterContainer {
+    width: 880px;
+    /* height: 500px; */
+    background-color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    margin:0 auto;
+    border-radius: 10px;
+    padding: 20px 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+
+}

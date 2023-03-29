@@ -1,0 +1,13 @@
+.NavContainer {
+    width: 960px;
+    height: 150px;
+    color:white;
+    margin: 100px auto 80px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.NavContainer p {
+    margin-top: 10px;
+    font-weight:100;
+}

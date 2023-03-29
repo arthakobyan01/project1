@@ -1,0 +1,32 @@
+.Nav nav a  {
+    color: white;
+    text-decoration: none;
+}
+
+.Nav nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content:center;
+    /* border: 1px solid ; */
+    padding: 30px;
+    
+}
+
+.Nav nav ul li {
+    /* border: 1px solid; */
+    padding: 10px 80px;
+    margin: 0 1px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.Nav nav ul li:hover {
+    background-color: #FA949D;
+}
+
+.Nav .navIcons {
+    display: flex;
+    margin: 10px auto;
+    font-size: 30px;
+
+}

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box
+}
+.CenterContainerButtons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    position: relative;
+
+
+}
+
+.CenterContainerButtons button{
+    align-items: center;
+    margin:15px 29px;
+    padding: 13px 35px;
+    border-radius: 7px;
+    border: 2px solid #F0F0F0;
+    cursor: pointer;
+
+}
+
+.CenterContainerButtons .sendMessage {
+   color: white;
+   background-color:#FA949D
+    
+}
+
+.CenterContainerButtons button:hover{
+    background-color:white;
+    border:2px solid #FA949D;
+    color:#FA949D ;
+
+}
