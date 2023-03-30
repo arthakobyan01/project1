@@ -1,12 +1,16 @@
 import React from 'react'
-import Form from '../Form/Form'
+import Form from "./Form/Form";
 import './CenterContainer.css'
+import { Address } from './Address';
+import { Contact } from './Contact';
 
-export default function CenterContainer() {
+export const CenterContainer = ({ tab }) => {
+
   return (
-    <div className='CenterContainer'>
-        <h3>Contact Form</h3>
-        <Form />
+    <div className="CenterContainer">
+      {tab === 0 && <Address />}
+      {tab === 1 && <Contact />}
+      {tab === 2 && <Form />}
     </div>
-  )
-}
+  );
+};

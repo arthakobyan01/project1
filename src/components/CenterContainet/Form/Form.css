@@ -11,9 +11,11 @@
   border-radius: 7px;
   border: 1px solid rgba(0, 0, 0, 0.245);
 }
+/* adding image to current input  */
 .Form .userName{
-    background-image: url('../../../img/user\ \(1\).png');
+    /* background-image: url('../../../..img/user\ \(1\).png'); */
 }
+
 .Form form {
     display:flex;
     flex-direction:column;
@@ -39,11 +41,11 @@
 }
 
 .Form .email {
-    background-image:url('../../../img/envelope.png')
+    /* background-image:url('../../../..img/envelope.png') */
 }
 
 .Form .phone {
-    background-image:url('../../../img/smartphone.png')
+    background-image:url('../../../../img/smartphone.png')
 }
 
 .Form input:focus {
