@@ -1,6 +1,6 @@
 import './App.css';
-import CenterContainer from './components/CenterContainet/CenterContainer';
-import NavContainer from './components/NavContainer/NavContainer';
+// import CenterContainer from './components/CenterContainet/CenterContainer';
+import NavContainer from './components/Contact/ContactNav/NavContainer/NavContainer';
 
 function App() {
   return (

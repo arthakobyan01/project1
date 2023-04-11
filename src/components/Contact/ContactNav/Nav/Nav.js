@@ -5,7 +5,7 @@ import "./Nav.css";
 import { TiLocation } from "react-icons/ti";
 import { BsTelephoneFill } from "react-icons/bs";
 import { IoMailSharp } from "react-icons/io5";
-import { CenterContainer } from "../CenterContainet/CenterContainer";
+import { CenterContainer } from "../../ContactBody/CenterContainet/CenterContainer";
 
 export default function Nav() {
   const [tab, setTab] = useState(2);

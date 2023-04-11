@@ -12,9 +12,6 @@
   border: 1px solid rgba(0, 0, 0, 0.245);
 }
 /* adding image to current input  */
-.Form .userName{
-    /* background-image: url('../../../..img/user\ \(1\).png'); */
-}
 
 .Form form {
     display:flex;
@@ -41,11 +38,15 @@
 }
 
 .Form .email {
-    /* background-image:url('../../../..img/envelope.png') */
+    background-image:url('../../../../../../img/envelope.png')
 }
 
 .Form .phone {
-    background-image:url('../../../../img/smartphone.png')
+    background-image:url('../../../../../../img/smartphone.png')
+}
+
+.Form .userName{
+    background-image: url('../../../../../../img/user\ \(1\).png');
 }
 
 .Form input:focus {
